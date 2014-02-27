@@ -1,0 +1,69 @@
+/* Headers */
+header h1 {
+  font-size: 5em;
+}
+
+.crn {
+  border-top: 10px solid #000;
+  border-bottom: 10px solid #000;
+  letter-spacing: 3em;
+  text-align: center;
+}
+
+.crn a {
+  transition: color .25s;
+}
+
+.crn h1 {
+  font-weight: bold;
+}
+
+.title {
+  border-top: 10px double #000;
+  border-bottom: 10px solid #000;
+  text-transform: uppercase;
+  text-align: right;
+} 
+
+/* Nav */
+nav .columns {
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav div {
+  border-bottom: 6px dotted #000; 
+}
+
+nav a {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+}
+
+/* Today & Notices */
+.today-notices {
+    border-bottom: 2px dotted #000; 
+}
+
+.today-notices div {
+  padding: 1em 0;
+}
+
+/* Today */
+.today:first-letter {
+  float: left;
+  font-size: 4em;
+  margin: .25em;
+}
+
+
+/* Notices */
+.notices {
+  text-align: right;
+}
+
+.notices li {
+  list-style: square;
+  list-style-position: inside;
+  font-size: 1.25em;
+}

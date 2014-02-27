@@ -4,52 +4,78 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DESN 368 : Web Design 1</title>
+
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    
     <script src="js/modernizr.js"></script>
   </head>
   <body>
     
-    <div class="row">
-      
-      <div class="large-4 columns">
-        
-        <h1><a href="index.html">DESN 368</a></h1>
-          <nav>
-          <dl class="sub-nav">
-            <dd><a href="post/wk2-a.html">Today</a></dd>
-            <dd><a href="#">Stages</a></dd>
-            <dd><a href="#">Reference</a></dd>
-          </dl>
-          </nav> 
-
+    <header class="row">
+      <div class="crn large-4 columns">
+        <h1><a href="index.html">368</a></h1>
       </div>
-    </div>
+      <div class="title large-8 columns">
+        <h1>Web Design 1</h1>
+      </div>
+    </header>
     
-    <!-- Today -->
-    <div class="row">
-      
-      <hr>
-
-      <div class="large-8 columns panel callout radius">
-        <h2><a href="post/wk2-b.html">Today</a></h2>
-        <p>Today's recorded lecture and exercises. See video and following instructions. Take breaks as needed.</p>
-        <p><a href="post/wk2-b.html">Today's Lecture</a></p>
+    <nav class="row">
+      <div class="columns large-4">
+        <a href="#">Daily</a>
       </div>
-    </div>
-  
+      <div class="columns large-4">
+        <a href="#">Calendar</a>
+      </div>
+      <div class="columns large-4">
+        <a href="#">Reference</a>
+      </div>
+    </nav>
+
+    <!-- Today -->
+    <article class="today-notices row">
+
+      <div class="today large-6 columns">
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, sed, nihil, commodi mollitia quis exercitationem tempore ipsam.</p>
+
+          <ul>
+            <li>Cont. RWD Process</li>
+            <li><a href="post/p3-style-tile.html">P3: Style Tile</a>Due: Wed 3/5 by Midnight</li>
+            <li><a href="post/wk8-b.html">2/26 Post</a></li>
+          </ul>
+
+        <p><a href="post/wk8-b.html">Today's Lecture</a></p>
+
+      </div>
+
+      <div class="notices large-6 columns">
+        
+        <h3>Notices</h3>
+        <ul>
+          <li><a href="post/p3-style-tile.html">P3: Style Tile</a>Due: Wed 3/5 by Midnight</li>
+        </ul>
+
+      </div>
+
+    </article>
+    
+    
+
     <!-- Stages -->
     <div class="row">
-      
-      <hr>
+    
 
       <div class="large-12 columns">
         <h2>Stage 1: Course Intro., Foundations, &amp; Tools</h2>
           <div class="large-4 columns">
             <h3>Week 1</h3>
             <ul>
+              <li><a href="https://github.com/vcd/368/wiki/368-Syllabus">Syllabus</a></li>
               <li><a href="post/wk1-a.html">Mon/Tue: 1/6 &amp; 1/7</a></li>
               <li><a href="post/wk1-b.html">Wed/Thur: 1/8 &amp; 1/9</a></li>
-              <li><a href="http://manikoth.com/as1">Assignment 1</a> Due Friday at 11am</li>
+              <li><a href="http://manikoth.com/as1">Assignment 1</a></li>
             </ul>
           </div>
           <div class="large-4 columns">
@@ -57,19 +83,52 @@
             <ul>
               <li><a href="post/wk2-a.html">Mon/Tue: 1/13 &amp; 1/14</a></li>
               <li>Wed/Thur: 1/1 &amp; 1/16</li>
-              <li><a href="https://docs.google.com/forms/d/1ThhYCXdNT-ZllmCqvgg5ozIBRBbutddDf8J6AHCAuaY/edit">Assignment 2</a> Due 1/17 at 5pm</li>
+              <li><a href="https://docs.google.com/forms/d/1ThhYCXdNT-ZllmCqvgg5ozIBRBbutddDf8J6AHCAuaY/edit">Assignment 2</a></li>
             </ul>
           </div>
           <div class="large-4 columns">
             <h3>Week 3</h3>
-            <i>links to be added</i>
+            <li><i>Mon/Tue: 1/20 &amp; 1/21. No Class</i></li>
+            <li><a href="post/wk3-b.html">Wed/Thur: 1/22 &amp; 1/23</a></li>
+            <li><a href="https://docs.google.com/forms/d/1B8Z9ig5ecMbqr27R8T38P2NTJUw4POF5iID7MSG0wxM/viewform">Assignment 3</a>
+              <ul>
+                <li>Extra Credit: Completed by Friday 1/24 at 5pm</li>
+                <li>New Due Date: Monday 1/27 at 5pm</li>
+              </ul>
+            </li>
+          </div>
+      </div>
+
+      <div class="large-12 columns">
+        <h2>Stage 2: Layout, Advanced Selectors, &amp; Design in Browser</h2>
+          <div class="large-4 columns">
+            <h3>Week 4</h3>
+            <ul>
+              <li><a href="post/p1-bio.html">Project 1 : Bio</a>, Due Sunday 2/2 at 5pm</li>
+              <li><a href="post/wk4-a.html">Mon/Tue: 1/27 &amp; 1/28</a></li>
+              <li><a href="post/wk4-b.html">Mon/Tue: 1/29 &amp; 1/30</a></li>
+            </ul>
+          </div>
+          <div class="large-4 columns">
+            <h3>Week 5</h3>
+            <li><a href="post/wk5-a.html">Mon/Tue: 2/3 &amp; 2/4</a></li>
+            <li><a href="post/wk5-b.html">Mon/Tue: 2/5 &amp; 2/6</a></li>
+          </div>
+          <div class="large-4 columns">
+            <h3>Week 6</h3>
+            <li>Midterm: Mon/Tue 2/10 &amp; 2/11</li>
           </div>
       </div>
     </div>
 
 
+    </div>
 
-    <!-- References -->
+
+
+
+
+    <!-- References
     <div class="row">
       
       <hr>
@@ -95,7 +154,7 @@
           </div>
       
       </div>
-    </div>
+    </div> -->
 
 
     
