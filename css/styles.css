@@ -1,5 +1,47 @@
+/************
+GLOBAL 
+*************/
+@import url("http://weloveiconfonts.com/api/?family=entypo");
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+@font-face {
+    font-family: 'roboto_slabthin';
+    src: url('../fonts/RobotoSlab-Thin-webfont.eot');
+    src: url('../fonts/RobotoSlab-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoSlab-Thin-webfont.woff') format('woff'),
+         url('../fonts/RobotoSlab-Thin-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Thin-webfont.svg#roboto_slabthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('../fonts/RobotoSlab-Regular-webfont.eot');
+    src: url('../fonts/RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('../fonts/RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'roboto_slabregular';
+}
+
 /* Headers */
+header {
+  background: url("../img/noise.png");
+}
+
 header h1 {
+  font-family: 'roboto_slabthin';
   font-size: 5em;
 }
 
@@ -11,7 +53,14 @@ header h1 {
 }
 
 .crn a {
-  transition: color .25s;
+  color: #222;
+  letter-spacing: -4px;
+  transition: color .25s, letter-spacing .25s;
+}
+
+.crn a:hover {
+  color: #008cba;
+  letter-spacing: 12px;
 }
 
 .crn h1 {
@@ -27,17 +76,23 @@ header h1 {
 
 /* Nav */
 nav .columns {
-  padding: 1em 0;
+  padding: 1.25em 0;
   text-align: center;
 }
 
 nav div {
-  border-bottom: 6px dotted #000; 
+  border-bottom: 3px dotted #000;
+  font-size: 1.25em; 
 }
 
 nav a {
+  color: #222;
   text-transform: uppercase;
   letter-spacing: .5em;
+}
+
+nav a:hover {
+  transition: color .25s;
 }
 
 /* Today & Notices */
