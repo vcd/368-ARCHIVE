@@ -105,12 +105,15 @@ nav a:hover {
 }
 
 /* Today */
-.today:first-letter {
-  float: left;
-  font-size: 4em;
-  margin: .25em;
+.today {
+  text-align: left;
 }
 
+.today li {
+  list-style: square;
+  list-style-position: inside;
+  font-size: 1.25em;
+}
 
 /* Notices */
 .notices {
@@ -121,4 +124,15 @@ nav a:hover {
   list-style: square;
   list-style-position: inside;
   font-size: 1.25em;
+}
+
+/* Weekly/Daily Posts */
+.subhead {
+  color: #fff;
+  background: #000;
+  text-align: center;
+}
+
+.daily ul {
+ margin-left: 3.2rem;
 }
