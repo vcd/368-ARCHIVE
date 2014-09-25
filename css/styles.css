@@ -105,6 +105,7 @@ nav a:hover {
 
 /* Today & Notices */
 .today-notices {
+  background: url("../img/bg-tile-3.png");
     border-bottom: 2px dotted #000; 
 }
 
@@ -112,9 +113,21 @@ nav a:hover {
   padding: 1em 0;
 }
 
+.today-notices h3 {
+  margin: .45em;
+}
+
+.today-notices h5 {
+  color: #fff;
+  text-align: center;
+  margin: .45em;
+}
+
+
 /* Today */
 .today {
   text-align: left;
+  background: url("../img/bg-tile-1.png");
 }
 
 .today li {
@@ -125,6 +138,7 @@ nav a:hover {
 
 /* Notices */
 .notices {
+  background: url("../img/bg-tile-2.png");  
   text-align: right;
 }
 
